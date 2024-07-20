@@ -1,0 +1,9 @@
+/***********************Directories***************************/
+#dir    data/
+#dir    data/sound/
+
+/***********************Data***************************/
+
+#split	0xF191C,0xF341C,data/sound/sounddriver.bin
+
+split    0x0,0x0,\0x0 - .bin
